@@ -1,0 +1,18 @@
+import plagas.*
+import elementos.*
+
+describe "Tests plagas" {
+method initialize() {
+  const unHogar = new Hogar(mugre = 10,confort = 20)
+  const unaHuerta = new Huerta(produccion = 200)
+  const firulais = new Mascota(salud = 100)
+  const cucas1 = new Cucarachas(poblacion = 15,pesoPrmedioBicho = 8)
+  const pulgas1 = new Pulgas(poblacion = 20)
+  const garras1 = new Garrapatas(poblacion = 10)
+  const mos1 = new Mosquitos(poblacion = 30)
+}
+  test "pepita has initial energy" {
+    assert.equals(100, pepita.energy())
+  }
+
+}
